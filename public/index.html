@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Template PWA</title>
+    <title>Buildings In Stone</title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -51,12 +51,22 @@
           <button class="waves-effect waves-light btn-large" id="button" type="button" name="button">
             Submit
           </button>
+
           <a class = "btn-floating btn-large waves-effect waves-light red" href ="testepage.html">  
               <i class = "material-icons">link to page 2</i></a>  
         </div>
-      </div>
-    </main>
 
+
+      </div>
+
+      <!-- Google map-->
+      <div id="googleMap" style="width:100%;height:400px;"></div>
+    </main>
+    
+    <!--Javascript files-->
     <script type="text/javascript" src="scripts/app.js"></script>
+    <script type="text/javascript" src="scripts/maphandler.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmc4BWQIoKTGiUZnOUKwPgvgbNnpHNQjQ&callback=myMap"></script>
+
   </body>
 </html>
