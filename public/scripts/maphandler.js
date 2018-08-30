@@ -4,4 +4,7 @@ function myMap() {
         zoom:13,
     };
     var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+    var locations = 
+
     }
